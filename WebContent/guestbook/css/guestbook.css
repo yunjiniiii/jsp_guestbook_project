@@ -1,0 +1,53 @@
+@charset "UTF-8";
+#wrap {
+	width: 800px;
+	margin:0, auto; /*위, 아래, auto : 좌우 */  
+}
+table {
+	width:750px;
+	border-collapse:collapse;
+	text-align:center;	
+}
+
+td,th{
+	font-size: 16px;
+	border: 1px solid #9370DB;
+	height:30px;
+	padding:5px;
+}
+
+th{
+  background-color:#6A5ACD;
+  color:#ffffff;
+  font-family: "굴림체";
+}
+
+
+tr, td{
+	color: #000000; /*#000*/
+	background-color:#E6E6FA; 
+}
+
+input{
+	height: 25px;
+	width:200px;
+}
+
+input[type="sumit"], [type="reset"], [type="button"]{
+	height:25px;
+	width: 80px;
+	background-color: plum; 
+}
+
+input[type="text"] {
+	border: 1px dotted darkgray;
+}
+
+a:link, a:visited {
+	text-decoration: none;
+	color: darkgray;
+}
+
+a:hover {
+	color:gray;
+}
